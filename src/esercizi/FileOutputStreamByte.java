@@ -6,10 +6,10 @@ import java.io.IOException;
 
 public class FileOutputStreamByte {
 	
-	final private String fileName = "src/text_files/file_output_stream_byte.txt";
+	final private String fileName = "src/text_files/datawrite1.txt";
 	final private String textToWrite = "Questa è una stringa trasformata in un array di bytes.";
 
-	public static void main1(String[] args) {
+	public static void main(String[] args) {
 		FileOutputStreamByte fosb = new FileOutputStreamByte();
 		fosb.run1();
 	}
@@ -23,6 +23,10 @@ public class FileOutputStreamByte {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+	}
+	
+	private void run2() {
+		
 	}
 
 }
